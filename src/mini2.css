@@ -1,0 +1,53 @@
+#container {
+  /* background-color: rgb(194, 98, 192); */
+  background: linear-gradient(90deg, rgb(227, 255, 253), rgb(10, 134, 126));
+  padding: 10px;
+  width: 1900px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  /* flex-flow: row wrap; */
+}
+
+/* header {
+  height: 426px;
+  background-image: url("./html-css.png");
+  background-position: center;
+} */
+
+h1 {
+  /* background-color: rgb(211, 88, 209); */
+  color: orange;
+  margin: 10px;
+  width: 250px;
+  padding: 7px;
+  align-items: center;
+  font-size: 30px;
+  text-shadow: 4px 5px 2px rgba(0, 0, 0, .9);
+}
+
+ul {
+  /* background-color: rgb(250, 146, 63); */
+  list-style: none;
+  width: 250px;
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  /* background-color: rgb(238, 212, 192); */
+  color: rgb(224, 205, 235);
+  width: 100px;
+  text-align: center;
+  padding: 7px 15px;
+  text-shadow: 4px 5px 2px rgba(0, 0, 0, .9);
+}
+
+ul a {
+  text-decoration: none;
+  color: yellow;
+}
